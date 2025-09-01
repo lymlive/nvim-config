@@ -12,11 +12,11 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	{import = "sponge.plugins"},
-	{import = "sponge.plugins.config"},
-	{import = "sponge.plugins.utils"},
-	{import = "sponge.plugins.git"},
-	{import = "sponge.plugins.lsp"}
+	{import = "lymlive.plugins"},
+	{import = "lymlive.plugins.config"},
+	{import = "lymlive.plugins.utils"},
+	{import = "lymlive.plugins.git"},
+	{import = "lymlive.plugins.lsp"}
 }, {
   checker = {
     enabled = true,
